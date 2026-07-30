@@ -27,9 +27,19 @@
 | 6 | [采样加速与评测](plan/stage6-采样加速与评测.md) | 约 4 天 | TeaCache 加速实测 + VBench 评测实测 |
 | 7 | [前沿方向巡礼](plan/stage7-前沿方向巡礼.md) | 约 4 天 | 选定主攻前沿线，产出深挖笔记 |
 
+## 在线访问（手机也能学）
+
+| 入口 | 网址 |
+|------|------|
+| 📖 学习站（阅读文档 + 勾选任务） | https://amn765.github.io/video-gen-study/ |
+| 📊 打卡面板（进度 / 热力图 / 连续天数） | https://amn765.github.io/video-gen-study/tracker/ |
+
+手机浏览器打开后选「添加到主屏幕」即可当 App 用。两个页面共享同一份进度（同一浏览器内），
+换设备用面板里的「导出 / 导入进度」同步。仓库地址：https://github.com/amn765/video-gen-study
+
 ## 怎么使用这套计划
 
-1. **打开进度面板**：用浏览器打开本地 `tracker/index.html`（双击即可）。
+1. **打开进度面板**：访问上面的在线网址，或用浏览器打开本地 `tracker/index.html`（双击即可）。
    每完成一个任务就勾选，进度条、热力图、连续天数会实时更新。进度存在浏览器 localStorage 里，
    换浏览器/电脑前记得用「导出进度」备份。
 2. **每天的节奏**：打开当前阶段的 markdown → 挑 1~2 个任务 → 动手验证 → 回到面板打勾。
@@ -55,4 +65,4 @@
 ## 说明
 
 - 全部参考资料均为互联网公开资源（arXiv 论文、官方文档、项目主页），引用前已逐条校验链接真实性。
-- 本地双击打开 `index.html`（学习站）时浏览器会拦截对 `plan/*.md` 的本地读取（CORS 限制），文档内容建议直接阅读 `plan/` 目录下的 markdown；`tracker/index.html`（进度面板）无此限制，可本地正常使用。若以后想部署到 GitHub Pages 在线阅读，随时可以补做。
+- 已部署到 GitHub Pages（GitHub Actions 管道，兼容中文文件名），线上可直接阅读 `plan/` 文档并勾选任务；本地双击 `index.html` 时浏览器会拦截对 `plan/*.md` 的读取（CORS 限制），`tracker/index.html` 无此限制。

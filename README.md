@@ -31,11 +31,11 @@
 
 | 入口 | 网址 |
 |------|------|
-| 📖 学习站（阅读文档 + 勾选任务） | https://amn765.github.io/video-gen-study/ |
-| 📊 打卡面板（进度 / 热力图 / 连续天数） | https://amn765.github.io/video-gen-study/tracker/ |
+| 📖 学习站（阅读文档 + 勾选任务） | https://amn765.github.io/video_gen_study/ |
+| 📊 打卡面板（进度 / 热力图 / 连续天数） | https://amn765.github.io/video_gen_study/tracker/ |
 
 手机浏览器打开后选「添加到主屏幕」即可当 App 用。两个页面共享同一份进度（同一浏览器内），
-换设备用面板里的「导出 / 导入进度」同步。仓库地址：https://github.com/amn765/video-gen-study
+换设备用面板里的「导出 / 导入进度」同步。仓库地址：https://github.com/amn765/video_gen_study
 
 ## 怎么使用这套计划
 
